@@ -5,8 +5,7 @@ This cookbook will install Microsoft Network Monitor 3.4 on a Windows system
 
 Requirements
 ------------
-
-windows
+The cookbook depends on the windows cookbook
 
 
 Attributes

@@ -19,6 +19,7 @@
 
 windows_package node['netmon']['package_name'] do
   source node['netmon']['url']
+  checksum node['netmon']['checksum']
   options '/q'
   installer_type :custom
   action :install

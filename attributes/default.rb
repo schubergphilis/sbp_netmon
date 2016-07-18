@@ -19,7 +19,7 @@
 
 default['netmon']['package_name'] = 'Microsoft Network Monitor 3.4'
 
-if kernel['machine'] =~ /x86_64/
+if node['kernel']['machine'] =~ /x86_64/
   default['netmon']['url']      = 'http://download.microsoft.com/download/7/1/0/7105C7FF-768E-4472-AFD5-F29108D1E383/NM34_x64.exe'
   default['netmon']['checksum'] = 'ab0b46acc1439077d801356fc5ac5af5f05349db249e87f1afede9e69edf7cf6'
 else
